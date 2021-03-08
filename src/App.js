@@ -5,7 +5,8 @@ import Book from './components/Book'
 function App() {
 
     return (
-        <Book />
+        <Book
+            title={{text:"Viatge a la lluna"}}/>
     )
 }
 export default App
