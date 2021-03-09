@@ -1,12 +1,17 @@
 import React from 'react'
-// Importamos los archivos creados
 import Book from './components/Book'
 
-function App() {
+// Importamos los .json creado
+import Library from './library.json'
 
+//Creamos la función App con el método .map
+function App() {
+    const libraryComponents = Library.map(book => <Book key={book.id} title={book.title} author={book.author}/>)
     return (
-        <Book
-            title={{text:"Viatge a la lluna"}}/>
+        <div>
+            {libraryComponents}
+        </div>     
     )
 }
+
 export default App
