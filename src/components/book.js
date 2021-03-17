@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Book () {
+function Book(props) {
     return (
         <div>
-            <h2>Viatge a la lluna</h2>
+            <h3>{props.title}</h3>
+            <p>{props.author}</p>
         </div>
     )
 }

@@ -11,7 +11,7 @@ _A continuación tienes una **visualización final** de la website pero si lo de
 
 ## Caracteristicas 🔧
 
-1. Instalar React a partir de la **plantilla** _(branch level1)_ [React Template](https://github.com/monteserin/react-template_)_<br> 
+1. Instalar React a partir de la **plantilla** [React Template](https://github.com/monteserin/react-template_) _(branch level1)_
 2. Crear el primer componente React llamado **book.js** _(branch level1)_
 3. Utilizar los **props** _(branch level2)_
 4. Mostrar listado de libros a partir de un **archivo JSON** _(branch level3)_
